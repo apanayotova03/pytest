@@ -36,25 +36,38 @@ The results indicate that the tests have a branch coverage of 38% on the program
 
 
 ## Your own coverage tool
-## Member:  Anastasia
-### Function 1: create_terminal_writer()
-#### Patch image of modified code: 
+# Member:  Anastasia
+## Function 1: create_terminal_writer()
+### Patch image of modified code: 
 
- ![Screenshot 2024-06-27 at 22 19 26](https://github.com/apanayotova03/pytest/assets/122705116/b4933dba-97e4-4337-acc1-1d77c9afb250)
+![image](https://github.com/apanayotova03/pytest/assets/156092269/07e74987-cd23-4525-9388-8a96281119cd)
+![image](https://github.com/apanayotova03/pytest/assets/156092269/76bb2404-7b2f-4229-a896-13cc93a1c480)
 
-#### Coverage results with our implementation: 
+
+
+
+
+### Coverage results with our implementation: 
 New branch coverage: 100%
 
  ![Screenshot 2024-06-27 at 22 20 47](https://github.com/apanayotova03/pytest/assets/122705116/e2c5a548-2373-4c05-9710-31666b811296)
 
 
-### Function 2: def _strtobool()
+## Function 2: def _strtobool()
 
-#### Patch image of modified code: 
+### Patch image of modified code: 
 
-#### Coverage results with our implementation: 
+![image](https://github.com/apanayotova03/pytest/assets/156092269/ae1c1a16-426e-4971-b2ae-a6e36fd0278d)
+![image](https://github.com/apanayotova03/pytest/assets/156092269/139f172b-e23d-4699-9932-7997fb8404c4)
+![image](https://github.com/apanayotova03/pytest/assets/156092269/928653f0-3663-450f-bc89-65f08a2d2e54)
+
+
+
+
+### Coverage results with our implementation: 
 
 New branch coverage: 100%
+![image](https://github.com/apanayotova03/pytest/assets/156092269/f4264791-b691-45e4-b21d-c2adb41bf993)
 
 
 ## Coverage improvement
@@ -63,24 +76,27 @@ New branch coverage: 100%
 
 <The following is supposed to be repeated for each group member>
 
-## Member:  Anastasia
+# Member:  Anastasia
 
 ### Test 1
 
-#### Patch with enhanced test: 
-![Screenshot 2024-06-27 at 22 21 40](https://github.com/apanayotova03/pytest/assets/122705116/9ef88a09-957d-4a18-90cc-b7ae1c855155)
+### Patch with enhanced test: 
+![image](https://github.com/apanayotova03/pytest/assets/156092269/8b508bbb-5b7c-471b-a558-2513689713d5)
 
 
-#### Old coverage results: 
+
+### Old coverage results: 
 
 Previous branch coverage: 50%
 
-![Screenshot 2024-06-27 at 22 22 09](https://github.com/apanayotova03/pytest/assets/122705116/372df057-4d83-4435-abdd-2a5669de463a)
+![image](https://github.com/apanayotova03/pytest/assets/156092269/64ad6395-7688-452a-ba9a-5cef40d23889)
+
 
 
 ### New coverage results: 
 
 New branch coverage: 100%
+![image](https://github.com/apanayotova03/pytest/assets/156092269/aa841d25-e253-4285-ae90-83ddd731e9eb)
 
 
 <State the coverage improvement with a number and elaborate on why the coverage is improved>
@@ -90,16 +106,19 @@ The branch coverage has doubled from 50% to 100%. The reason is because the prev
 
 ### Test 2
 
-#### Patch with enhanced test: 
+### Patch with enhanced test: 
+
+![image](https://github.com/apanayotova03/pytest/assets/156092269/6d73bccb-8e4b-4f97-b372-41d95145e3d6)
 
 
 
-
-#### Old coverage results: 
+### Old coverage results: 
 Previous branch coverage: 0%
+![image](https://github.com/apanayotova03/pytest/assets/156092269/e1626aaa-fb84-409e-b720-d4739a813340)
 
 
 ### New coverage results: 
+![image](https://github.com/apanayotova03/pytest/assets/156092269/ee6221ba-318c-492f-8b68-507aaec23fe3)
 
 
 <State the coverage improvement with a number and elaborate on why the coverage is improved>
@@ -379,6 +398,9 @@ The new coverage is 100%, the new test takes all the cases for the ifs, for exam
 <Provide a screenshot of the old coverage results by running an existing tool (the same as you already showed above)>
 
 <Provide a screenshot of the new coverage results by running the existing tool using all test modifications made by the group>
+
+![WhatsApp Image 2024-06-27 at 23 52 50](https://github.com/apanayotova03/pytest/assets/122705116/6f22a5e0-ee53-49ce-8f4c-b8bb96ee60db)
+
 
 ## Statement of individual contributions
 
