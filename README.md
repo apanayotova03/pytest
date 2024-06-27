@@ -20,9 +20,11 @@ Programming language: Python
 We used tox to run the tests and measured their coverage using coverage.py. The specific commands that were used are:
 
 $ tox
+
 $ coverage html
 
 This allowed us to run all tests in the repository and summarised the coverage of each test in an html file. Here is a screenshot of the results:
+
 
 
 The results indicate that the tests have a branch coverage of 38% on the program.
