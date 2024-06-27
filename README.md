@@ -33,9 +33,7 @@ The results indicate that the tests have a branch coverage of 38% on the program
 
  ![Screenshot 2024-06-27 at 22 18 22](https://github.com/apanayotova03/pytest/assets/122705116/74aedda1-54a4-4a50-bd9b-8af833493ef8)
 
-### Your own coverage tool
-
-<The following is supposed to be repeated for each group member>
+## Your own coverage tool
 # Member:  Anastasia
 ## Function 1: create_terminal_writer()
 ### Patch image of modified code: 
@@ -129,7 +127,7 @@ The branch coverage has improved from 0% to 100%. In the original test, neither 
 
 
 
-### Your own coverage tool
+## Your own coverage tool
 
 # Member:  Ana Alexandra Cornea 
 
@@ -198,6 +196,7 @@ The branch coverage has improved from 0% to 100%. In the original test, neither 
 
 
 
+## Your own coverage tool
 
 # Member:  Liang Laura Moragues Hincapie
 
@@ -272,8 +271,8 @@ New branch coverage is 100% DEVELOP
 The coverage is 100%
 
 
-
-# Member:  Anda Gabriela Barbu
+## Your own coverage tool
+## Member:  Anda Gabriela Barbu
 
 ## Function 1: should_do_markup()
 
