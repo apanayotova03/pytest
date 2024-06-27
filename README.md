@@ -34,23 +34,23 @@ The results indicate that the tests have a branch coverage of 38% on the program
  ![Screenshot 2024-06-27 at 22 18 22](https://github.com/apanayotova03/pytest/assets/122705116/74aedda1-54a4-4a50-bd9b-8af833493ef8)
 
 ## Your own coverage tool
-# Member:  Anastasia
-## Function 1: create_terminal_writer()
-### Patch image of modified code: 
+## Member:  Anastasia
+### Function 1: create_terminal_writer()
+#### Patch image of modified code: 
 
  ![Screenshot 2024-06-27 at 22 19 26](https://github.com/apanayotova03/pytest/assets/122705116/b4933dba-97e4-4337-acc1-1d77c9afb250)
 
-### Coverage results with our implementation: 
+#### Coverage results with our implementation: 
 New branch coverage: 100%
 
  ![Screenshot 2024-06-27 at 22 20 47](https://github.com/apanayotova03/pytest/assets/122705116/e2c5a548-2373-4c05-9710-31666b811296)
 
 
-## Function 2: def _strtobool()
+### Function 2: def _strtobool()
 
-### Patch image of modified code: 
+#### Patch image of modified code: 
 
-### Coverage results with our implementation: 
+#### Coverage results with our implementation: 
 
 New branch coverage: 100%
 
@@ -61,15 +61,15 @@ New branch coverage: 100%
 
 <The following is supposed to be repeated for each group member>
 
-# Member:  Anastasia
+## Member:  Anastasia
 
 ### Test 1
 
-### Patch with enhanced test: 
+#### Patch with enhanced test: 
 ![Screenshot 2024-06-27 at 22 21 40](https://github.com/apanayotova03/pytest/assets/122705116/9ef88a09-957d-4a18-90cc-b7ae1c855155)
 
 
-### Old coverage results: 
+#### Old coverage results: 
 
 Previous branch coverage: 50%
 
@@ -88,12 +88,12 @@ The branch coverage has doubled from 50% to 100%. The reason is because the prev
 
 ### Test 2
 
-### Patch with enhanced test: 
+#### Patch with enhanced test: 
 
 
 
 
-### Old coverage results: 
+#### Old coverage results: 
 Previous branch coverage: 0%
 
 
@@ -129,18 +129,18 @@ The branch coverage has improved from 0% to 100%. In the original test, neither 
 
 ## Your own coverage tool
 
-# Member:  Ana Alexandra Cornea 
+## Member:  Ana Alexandra Cornea 
 
-## Function 1: fullwidth() 
+### Function 1: fullwidth() 
 
-### Patch image of modified code: 
+#### Patch image of modified code: 
  
 
 
-### Coverage results with our implementation: 
+#### Coverage results with our implementation: 
 
 
-## Function 2:
+### Function 2:
 
 <Provide the same kind of information provided for Function 1>
 
@@ -150,13 +150,13 @@ The branch coverage has improved from 0% to 100%. In the original test, neither 
 
 <The following is supposed to be repeated for each group member>
 
-# Member:  Ana Alexandra Cornea
+## Member:  Ana Alexandra Cornea
 
 ### Test 1
 
 
 
-### Old coverage results: 
+#### Old coverage results: 
 
 ### New coverage results: 
 
@@ -178,9 +178,9 @@ The branch coverage has improved from 0% to 100%. In the original test, neither 
 
 
 
-### Patch image of modified code: 
+#### Patch image of modified code: 
 
-### Coverage results with our implementation: 
+#### Coverage results with our implementation: 
 
 ### New coverage results: 
 
@@ -198,25 +198,28 @@ The branch coverage has improved from 0% to 100%. In the original test, neither 
 
 ## Your own coverage tool
 
-# Member:  Liang Laura Moragues Hincapie
+## Member:  Liang Laura Moragues Hincapie
 
-## Function 1: get_terminal_width()
+### Function 1: get_terminal_width()
 
-### Patch image of modified code: 
+#### Patch image of modified code: 
 
 
 ![Screenshot 2024-06-27 at 20 52 00](https://github.com/apanayotova03/pytest/assets/122705116/7e518922-3e79-497f-b7ac-b6c4a35af2a7)
 
 
-### Coverage results with our implementation: 
+#### Coverage results with our implementation: 
 
 
 ![Screenshot 2024-06-27 at 20 28 22](https://github.com/apanayotova03/pytest/assets/122705116/80f3e018-1ed5-46e0-bcdb-12e7ce8e6806)
 
 
-## Function 2: _highlight
-### Patch image of modified code: 
-### Coverage results with our implementation: 
+### Function 2: _highlight
+#### Patch image of modified code: 
+
+![Screenshot 2024-06-27 at 22 32 22](https://github.com/apanayotova03/pytest/assets/122705116/22929e68-caa8-43f5-82d5-d12183d1b9d9)
+
+#### Coverage results with our implementation: 
 
 
 ## Coverage improvement
@@ -225,16 +228,16 @@ The branch coverage has improved from 0% to 100%. In the original test, neither 
 
 <The following is supposed to be repeated for each group member>
 
-# Member:  Liang Laura Moragues Hincapie
+## Member:  Liang Laura Moragues Hincapie
 
 ### Test 1
 
-### Patch with enhanced test: 
+#### Patch with enhanced test: 
 
 ![Screenshot 2024-06-27 at 20 52 23](https://github.com/apanayotova03/pytest/assets/122705116/6fcf0773-a25b-4744-93e0-43f76fc5ac45)
 
 
-### Old coverage results: 
+#### Old coverage results: 
 
 ![Screenshot 2024-06-27 at 21 12 50](https://github.com/apanayotova03/pytest/assets/122705116/6138f1d1-6bf5-4dbb-98d9-548d4861d592)
 
@@ -250,12 +253,12 @@ New branch coverage is 100% DEVELOP
 
 ### Test 2
 
-### Patch with enhanced test: 
+#### Patch with enhanced test: 
 
 ![Screenshot 2024-06-27 at 22 32 22](https://github.com/apanayotova03/pytest/assets/122705116/c829617e-8b2a-4c17-ad76-efe8c54ce5a3)
 
 
-### Old coverage results: 
+#### Old coverage results: 
 
 
 ![Screenshot 2024-06-27 at 22 45 38](https://github.com/apanayotova03/pytest/assets/122705116/94127838-632c-4f40-9761-41e266192cb1)
@@ -272,11 +275,11 @@ The coverage is 100%
 
 
 ## Your own coverage tool
-## Member:  Anda Gabriela Barbu
+### Member:  Anda Gabriela Barbu
 
-## Function 1: should_do_markup()
+### Function 1: should_do_markup()
 
-### Patch image of modified code: 
+#### Patch image of modified code: 
 The code of the new test after creating a branch array
 
 
@@ -320,7 +323,7 @@ if __name__ == "__main__":
 
 
 
-### Coverage results with our implementation: 
+#### Coverage results with our implementation: 
 
 
 
@@ -334,7 +337,7 @@ if __name__ == "__main__":
 
 
 
-## Function 2:
+### Function 2:
 
 <Provide the same kind of information provided for Function 1>
 
@@ -344,13 +347,13 @@ if __name__ == "__main__":
 
 <The following is supposed to be repeated for each group member>
 
-# Member: 
+## Member: 
 
 ### Test 1
 
-### Patch with enhanced test: 
+#### Patch with enhanced test: 
 
-### Old coverage results: 
+#### Old coverage results: 
 
 ### New coverage results: 
 
@@ -358,9 +361,9 @@ if __name__ == "__main__":
 
 ### Test 2
 
-### Patch with enhanced test: 
+#### Patch with enhanced test: 
 
-### Old coverage results: 
+#### Old coverage results: 
 
 ### New coverage results: 
 
