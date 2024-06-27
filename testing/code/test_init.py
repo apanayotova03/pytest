@@ -10,11 +10,6 @@ from _pytest.config.__init__ import _strtobool
 from _pytest.config.__init__ import Config
 from _pytest.config.__init__ import create_terminal_writer
 
-# from .compat import PathAwareHookProxy
-# from .exceptions import PrintHelp as PrintHelp
-# from .exceptions import UsageError as UsageError
-# from .findpaths import determine_setup
-# from _pytest._code.code import TracebackStyle
 import pytest
 
 
