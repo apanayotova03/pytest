@@ -30,7 +30,8 @@ This allowed us to run all tests in the repository and summarised the coverage o
 The results indicate that the tests have a branch coverage of 38% on the program.
 
 <Show the coverage results provided by the existing tool with a screenshot>
-![Screenshot 2024-06-27 at 22 18 22](https://github.com/apanayotova03/pytest/assets/122705116/74aedda1-54a4-4a50-bd9b-8af833493ef8)
+
+ ![Screenshot 2024-06-27 at 22 18 22](https://github.com/apanayotova03/pytest/assets/122705116/74aedda1-54a4-4a50-bd9b-8af833493ef8)
 
 ### Your own coverage tool
 
@@ -38,11 +39,13 @@ The results indicate that the tests have a branch coverage of 38% on the program
 <Group member name> Anastasia
 <Function 1 name> create_terminal_writer()
 <Show a patch (diff) or a link to a commit made in your forked repository that shows the instrumented code to gather coverage measurements>
-![Screenshot 2024-06-27 at 22 19 26](https://github.com/apanayotova03/pytest/assets/122705116/b4933dba-97e4-4337-acc1-1d77c9afb250)
+
+ ![Screenshot 2024-06-27 at 22 19 26](https://github.com/apanayotova03/pytest/assets/122705116/b4933dba-97e4-4337-acc1-1d77c9afb250)
 
 <Provide a screenshot of the coverage results output by the instrumentation>
 New branch coverage: 100%
-![Screenshot 2024-06-27 at 22 20 47](https://github.com/apanayotova03/pytest/assets/122705116/e2c5a548-2373-4c05-9710-31666b811296)
+
+ ![Screenshot 2024-06-27 at 22 20 47](https://github.com/apanayotova03/pytest/assets/122705116/e2c5a548-2373-4c05-9710-31666b811296)
 
 
 <Function 2 name> def _strtobool()
