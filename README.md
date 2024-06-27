@@ -188,14 +188,6 @@ The branch coverage has improved from 0% to 100%. In the original test, neither 
 
 
 
-
-
-
-
-
-
-
-
 ## Your own coverage tool
 
 ## Member:  Liang Laura Moragues Hincapie
@@ -215,11 +207,14 @@ The branch coverage has improved from 0% to 100%. In the original test, neither 
 
 
 ### Function 2: _highlight
+
 #### Patch image of modified code: 
 
 ![Screenshot 2024-06-27 at 22 32 22](https://github.com/apanayotova03/pytest/assets/122705116/22929e68-caa8-43f5-82d5-d12183d1b9d9)
 
 #### Coverage results with our implementation: 
+
+![Screenshot 2024-06-27 at 23 20 07](https://github.com/apanayotova03/pytest/assets/122705116/1387eba5-48d9-4482-898e-58a12bd929c6)
 
 
 ## Coverage improvement
@@ -248,8 +243,9 @@ The branch coverage has improved from 0% to 100%. In the original test, neither 
 
 <State the coverage improvement with a number and elaborate on why the coverage is improved>
 
-New branch coverage is 100% DEVELOP
+The coverage improvement is 100% as full branch coverage for the get_width function. This means that every possible execution path within the function has been systematically tested. Various scenarios, such as when the terminal width is greater than or less than 40 pixels, have been specifically designed to ensure thorough validation. Mocking was utilized to control the return values of shutil.get_terminal_size and simulate different terminal size conditions, guaranteeing that the function behaves correctly across different environments and fallback situations. This rigorous testing approach not only enhances code coverage but also instills confidence in the function's accuracy and robustness across diverse terminal configurations.
 
+The coverage improvement is 100% since we managed to test every test possible so it goes through all branches.
 
 ### Test 2
 
@@ -271,7 +267,7 @@ New branch coverage is 100% DEVELOP
 
 <State the coverage improvement with a number and elaborate on why the coverage is improved>
 
-The coverage is 100%
+The coverage improvement is 100% because thorough testing has ensured complete branch coverage in the _highlight method of the TerminalWriter class. This means that every possible path through the method's logic has been tested, including scenarios where hasmarkup and code_highlight are both true, when one or both are false and cases where the Pygments lexer or formatter is unavailable. By designing test cases that cover these conditions and using mocking to isolate dependencies like _get_pygments_lexer and _get_pygments_formatter, the tests verify that _highlight behaves as expected in all situations. This comprehensive testing approach increases code coverage.
 
 
 ## Your own coverage tool
