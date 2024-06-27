@@ -404,4 +404,14 @@ The new coverage is 100%, the new test takes all the cases for the ifs, for exam
 
 ## Statement of individual contributions
 
-<Write what each group member did>
+## Statement of individual contributions
+Anastasia: I focused on improving the branch coverage of the file init.py, specifically in functions create_terminal_writer() and _strtobool(). As explained above, the branch coverage of create_terminal_writer() increased from 50% to 100% and for the second function increased from 0% to 100%. This was achieved by creating tests that specifically targeted to hit the branches that were not previously covered by the tests.
+
+Laura: Similarly, I chose to improve the tests for functions  _highlight() and wide(). After examining the code of the functions I assembled inputs that are going to target different branches. Those inputs were used to create my own coverage tool and later on in the tests. Overall, I want to achieve branch coverage of 100% on both functions.
+
+Anda: I was in charge of improving the branch coverage of the functions should_do_markup() and wcwidth(). The improvement of the first function was 93% and for the second one the convergence increases to 100%. To achieve these results I created tests that hit all branches that weren’t covered previously.
+
+Ana: As our assignment aimed to improve the coverage for an open-source GitHub project, Pytest, I concentrated on enhancing the test coverage for the “markup” and “fullwide” functions. My objective was to ensure that these functions achieved at least 80% test coverage. Through testing, I successfully improved their coverage up to 100%.
+
+
+Overall, after pushing all of the new tests to the forked repository, we managed to increase the total branch coverage from 38% to 39%. Even though this change seems insignificant, given the fact that the project consists of 77k lines, this one percent increase represents a substantial improvement in our testing efforts. 
