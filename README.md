@@ -33,6 +33,8 @@ The results indicate that the tests have a branch coverage of 38% on the program
 
  ![Screenshot 2024-06-27 at 22 18 22](https://github.com/apanayotova03/pytest/assets/122705116/74aedda1-54a4-4a50-bd9b-8af833493ef8)
 
+
+
 ## Your own coverage tool
 ## Member:  Anastasia
 ### Function 1: create_terminal_writer()
@@ -109,40 +111,38 @@ The branch coverage has improved from 0% to 100%. In the original test, neither 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Your own coverage tool
 
 ## Member:  Ana Alexandra Cornea 
 
 ### Function 1: fullwidth() 
 
+
+
 #### Patch image of modified code: 
- 
+![Screenshot 2024-06-27 210356](https://github.com/apanayotova03/pytest/assets/156057178/4f5a7560-c200-4f0d-b553-93755a86344f)
+![Screenshot 2024-06-27 210441](https://github.com/apanayotova03/pytest/assets/156057178/c162d918-39ce-4b13-b2d0-51b5f75fb1c8)
+
 
 
 #### Coverage results with our implementation: 
 
 
-### Function 2:
 
-<Provide the same kind of information provided for Function 1>
+### Function 2:
+![Screenshot 2024-06-27 210504](https://github.com/apanayotova03/pytest/assets/156057178/56d347ab-74a6-4885-afc3-e84d45265f8c)
+
+
+<Function 2 name> markup()
+
+<Show a patch (diff) or a link to a commit made in your forked repository that shows the instrumented code to gather coverage measurements>
+![Screenshot 2024-06-27 215350](https://github.com/apanayotova03/pytest/assets/156057178/784dfa9e-9293-4688-949c-1fa35f702649)
+![Screenshot 2024-06-27 215533](https://github.com/apanayotova03/pytest/assets/156057178/17bf91a8-bf07-46f0-a932-6a0779a35a5d)
+
+
+<Provide a screenshot of the coverage results output by the instrumentation>
+
+ ![Screenshot 2024-06-27 215042](https://github.com/apanayotova03/pytest/assets/156057178/14d8f6bb-4338-4415-89b0-597d18c7e112)
 
 ## Coverage improvement
 
@@ -153,20 +153,19 @@ The branch coverage has improved from 0% to 100%. In the original test, neither 
 ## Member:  Ana Alexandra Cornea
 
 ### Test 1
-
-
+![Screenshot 2024-06-27 215942](https://github.com/apanayotova03/pytest/assets/156057178/fbfa596b-95e1-4f51-ba0c-ddda460ca119)
+![Screenshot 2024-06-27 220012](https://github.com/apanayotova03/pytest/assets/156057178/3ae252b4-f04e-4176-8b70-146de30496e2)
 
 #### Old coverage results: 
 
+  ![Screenshot 2024-06-27 212450](https://github.com/apanayotova03/pytest/assets/156057178/3fe740eb-a8d8-4b1a-8b37-f6e044805e80)
+  
 ### New coverage results: 
+ ![image](https://github.com/apanayotova03/pytest/assets/156057178/a277b960-5452-41f2-9a14-56b9910b4c5b)
+
 
 <State the coverage improvement with a number and elaborate on why the coverage is improved>
-
-### Test 2
-
-<Provide the same kind of information provided for Test 1>
-
-
+From the images above, we can see that the initial coverage was only 50% due to the “If” statement not being executed. However, I successfully increased the coverage to 83%, achieving an improvement of 33%
 
 
 
@@ -180,11 +179,26 @@ The branch coverage has improved from 0% to 100%. In the original test, neither 
 
 #### Patch image of modified code: 
 
+  ![Screenshot 2024-06-27 222452](https://github.com/apanayotova03/pytest/assets/156057178/bb347c21-0045-4fd3-995c-63f3174d0a0b)
+![Screenshot 2024-06-27 222631](https://github.com/apanayotova03/pytest/assets/156057178/835609ca-5553-47ea-b223-352410592ffa)
+  
 #### Coverage results with our implementation: 
-
+![Screenshot 2024-06-27 221143](https://github.com/apanayotova03/pytest/assets/156057178/290aae94-31b6-4c2e-b684-b3ff0c23d2e4)
 ### New coverage results: 
+  ![image](https://github.com/apanayotova03/pytest/assets/156057178/2f54e02e-5955-4f5a-afde-8668894bfe42)
+
 
 <State the coverage improvement with a number and elaborate on why the coverage is improved>
+From the images above, we can see that the initial coverage was only 61% due to two of the “If” statements not being executed. However, I successfully increased the coverage to 100%, achieving an improvement of  39%.
+
+
+
+
+
+
+
+
+
 
 
 
