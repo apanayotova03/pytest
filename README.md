@@ -404,7 +404,6 @@ The new coverage is 100%, the new test takes all the cases for the ifs, for exam
 
 ## Statement of individual contributions
 
-## Statement of individual contributions
 Anastasia: I focused on improving the branch coverage of the file init.py, specifically in functions create_terminal_writer() and _strtobool(). As explained above, the branch coverage of create_terminal_writer() increased from 50% to 100% and for the second function increased from 0% to 100%. This was achieved by creating tests that specifically targeted to hit the branches that were not previously covered by the tests.
 
 Laura: Similarly, I chose to improve the tests for functions  _highlight() and wide(). After examining the code of the functions I assembled inputs that are going to target different branches. Those inputs were used to create my own coverage tool and later on in the tests. Overall, I want to achieve branch coverage of 100% on both functions.
