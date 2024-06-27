@@ -270,72 +270,48 @@ The coverage improvement is 100% since we managed to test every test possible so
 The coverage improvement is 100% because thorough testing has ensured complete branch coverage in the _highlight method of the TerminalWriter class. This means that every possible path through the method's logic has been tested, including scenarios where hasmarkup and code_highlight are both true, when one or both are false and cases where the Pygments lexer or formatter is unavailable. By designing test cases that cover these conditions and using mocking to isolate dependencies like _get_pygments_lexer and _get_pygments_formatter, the tests verify that _highlight behaves as expected in all situations. This comprehensive testing approach increases code coverage.
 
 
+
+
+
 ## Your own coverage tool
 ### Member:  Anda Gabriela Barbu
 
 ### Function 1: should_do_markup()
 
 #### Patch image of modified code: 
-The code of the new test after creating a branch array
+![image](https://github.com/apanayotova03/pytest/assets/156002940/37edd183-00d6-4a73-82d8-34cfe61e73ee)
+
+![image](https://github.com/apanayotova03/pytest/assets/156002940/7870477a-f208-4092-bec0-4a5bff1ff884)
 
 
-def test():
-    # Branch Id 1
-    os.environ["PY_COLORS"] = "1"
-    test = should_do_markup(None)
-    del os.environ["PY_COLORS"]
-    assert test == True
+#### Coverage results with our implementation: 
+![image](https://github.com/apanayotova03/pytest/assets/156002940/29e30760-02c2-4675-844e-a93ff19d27be)
 
 
-    os.environ["PY_COLORS"] = "0"
-    test = should_do_markup(None)
-    del os.environ["PY_COLORS"]
-    assert test == False
 
 
-    # Branch Id 3
-    os.environ["NO_COLOR"] = "1"
-    test = should_do_markup(None)
-    del os.environ["NO_COLOR"]
-    assert test == False
 
 
-    # Branch Id 4
-    os.environ["FORCE_COLOR"] = "1"
-    test = should_do_markup(None)
-    del os.environ["FORCE_COLOR"]
-    assert test == True
 
 
-    # Branch Id 5
-    test = should_do_markup(None)
-    assert test == False
 
 
-    os.environ["PY_COLORS"] = "1"
-if __name__ == "__main__":
-    test()
 
+
+
+### Function 2: wcwidth()
+
+#### Patch image of modified code: 
+![image](https://github.com/apanayotova03/pytest/assets/156002940/c011ee33-d3ac-496c-84ba-83b1fefb685e)
+![image](https://github.com/apanayotova03/pytest/assets/156002940/785be5b5-f059-43e3-99c2-7f4939247991)
 
 
 
 #### Coverage results with our implementation: 
 
+![image](https://github.com/apanayotova03/pytest/assets/156002940/f6d25146-d5dc-47a2-9c30-dab9e587b1b5)
 
 
-
-
-
-
-
-
-
-
-
-
-### Function 2:
-
-<Provide the same kind of information provided for Function 1>
 
 ## Coverage improvement
 
@@ -343,36 +319,37 @@ if __name__ == "__main__":
 
 <The following is supposed to be repeated for each group member>
 
-## Member: 
+## Member: Anda Barbu
 
 ### Test 1
 
 #### Patch with enhanced test: 
+![image](https://github.com/apanayotova03/pytest/assets/156002940/32cf2056-d10a-4ee3-a629-f9986a2c14fc)
+![image](https://github.com/apanayotova03/pytest/assets/156002940/94afda0a-03a0-40b3-a9e4-d88eb65d6020)
 
 #### Old coverage results: 
+![image](https://github.com/apanayotova03/pytest/assets/156002940/618fd389-12f9-49e7-ac15-456ba22aa794)
 
 ### New coverage results: 
+![image](https://github.com/apanayotova03/pytest/assets/156002940/0c9af461-3b83-4a12-9b59-2907cbb742dc)
 
 <State the coverage improvement with a number and elaborate on why the coverage is improved>
+The new coverage is 93%, the new test takes in consideration all possible cases, for example “if os.environ.get(“NO_COLOR”)” is not tested for the branch where the return is false
 
-### Test 2
+ ### Test 2
 
 #### Patch with enhanced test: 
+![image](https://github.com/apanayotova03/pytest/assets/156002940/8017d213-0a73-4ed4-aa0b-cd741b549698)
+![image](https://github.com/apanayotova03/pytest/assets/156002940/7b3c9d91-fb70-4204-a89d-1889f7112728)
 
 #### Old coverage results: 
+![image](https://github.com/apanayotova03/pytest/assets/156002940/10a1ca01-67e8-43c1-86de-a05c0302c576)
 
 ### New coverage results: 
+![image](https://github.com/apanayotova03/pytest/assets/156002940/4a63bc95-6f9d-410d-9aef-b3ee2a579b6c)
 
 <State the coverage improvement with a number and elaborate on why the coverage is improved>
-
-
-
-
-
-
-
-
-
+The new coverage is 100%, the new test takes all the cases for the ifs, for example “if category == “Cc”) is not covered at all in the initial test
 
 
 
