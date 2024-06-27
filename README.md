@@ -138,28 +138,29 @@ The branch coverage has improved from 0% to 100%. In the original test, neither 
 
 
 
-#### Patch image of modified code: 
-![Screenshot 2024-06-27 210356](https://github.com/apanayotova03/pytest/assets/156057178/4f5a7560-c200-4f0d-b553-93755a86344f)
-![Screenshot 2024-06-27 210441](https://github.com/apanayotova03/pytest/assets/156057178/c162d918-39ce-4b13-b2d0-51b5f75fb1c8)
-
-
-
 #### Coverage results with our implementation: 
 
 
 
-### Function 2:
+### Patch image of modified code: 
+
+![image](https://github.com/apanayotova03/pytest/assets/156092269/ae1c1a16-426e-4971-b2ae-a6e36fd0278d)
+![image](https://github.com/apanayotova03/pytest/assets/156092269/139f172b-e23d-4699-9932-7997fb8404c4)
+![image](https://github.com/apanayotova03/pytest/assets/156092269/928653f0-3663-450f-bc89-65f08a2d2e54)
+
+
+
+### Function 2:markup()
 ![Screenshot 2024-06-27 210504](https://github.com/apanayotova03/pytest/assets/156057178/56d347ab-74a6-4885-afc3-e84d45265f8c)
 
 
-<Function 2 name> markup()
 
-<Show a patch (diff) or a link to a commit made in your forked repository that shows the instrumented code to gather coverage measurements>
+### Patch image of modified code: 
 ![Screenshot 2024-06-27 215350](https://github.com/apanayotova03/pytest/assets/156057178/784dfa9e-9293-4688-949c-1fa35f702649)
 ![Screenshot 2024-06-27 215533](https://github.com/apanayotova03/pytest/assets/156057178/17bf91a8-bf07-46f0-a932-6a0779a35a5d)
 
 
-<Provide a screenshot of the coverage results output by the instrumentation>
+#### Coverage results with our implementation: 
 
  ![Screenshot 2024-06-27 215042](https://github.com/apanayotova03/pytest/assets/156057178/14d8f6bb-4338-4415-89b0-597d18c7e112)
 
